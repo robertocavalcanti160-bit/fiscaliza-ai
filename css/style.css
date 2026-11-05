@@ -1,0 +1,33 @@
+/* Cores da identidade visual */
+:root {
+  --bs-success-rgb: 20, 97, 74;
+}
+
+.btn-primary {
+  --bs-btn-bg: #1b5fa8;
+  --bs-btn-border-color: #1b5fa8;
+  --bs-btn-hover-bg: #164f8c;
+  --bs-btn-hover-border-color: #164f8c;
+  --bs-btn-active-bg: #164f8c;
+  --bs-btn-active-border-color: #164f8c;
+}
+
+/* Mantém o rodapé no fim da tela em páginas curtas */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.logo {
+  height: 32px;
+  margin-right: 6px;
+}
+
+.formulario {
+  max-width: 640px;
+}
